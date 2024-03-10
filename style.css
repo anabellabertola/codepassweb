@@ -1,0 +1,1194 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', 'Dancing Script';
+    background-image:  url("img/fondo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* MENU */
+
+.menu {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.navbar {
+    position: absolute;
+    display: flex;
+}
+
+.menu-1 {
+    margin-right: 200px;
+    margin-top: 40px;
+}
+
+.logo-1 {
+    width: 95px;
+    margin-top: -25px;
+    margin-left: 1px;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+    list-style-type: none;
+    display: flex;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 30px;
+    margin-top: -60px;
+    color:white;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color:#E6C573;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+    display: none;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    margin-top: 200px;
+    padding-bottom: 50px;
+}
+
+/* SOCIALS MENU */
+
+.socials {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    margin-top: 2.5%;
+    position: relative;
+    margin-left: 67%;
+    cursor: pointer;
+    width: 30%;
+}
+
+.social img{
+    width: 20px;
+    margin: 15px;
+}
+
+/* LOGO PRESENTACION */
+
+.logo-presentacion {
+    display: block;
+    justify-content: left;
+    flex-direction: row;
+    font-family: 'Dancing script';
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.parrafo h4 {
+    position: relative;
+    text-align: right;
+    margin-right: 65px;
+    color: white;
+}
+
+/* DIVIDER */
+
+.divider-1 {
+    background-color: #E6C573;
+    width: 40%;
+    height: 2px;
+    margin-left: 50%;
+    margin-top: 50px;
+    display: block;
+    justify-content: left;
+    flex-direction: row;
+    position: relative;
+
+}
+
+/* QUIENES SOMOS */
+
+.quienes-somos {
+    font-family: 'Roboto';
+    display: block;
+    position: relative;
+    text-align: left;
+}
+
+.quienes-somos h1 {
+    margin-left: 70px;
+    margin-bottom: 60px;
+    margin-top: 100px;
+    font-size: 28px;
+    color: white;
+}
+
+.quienes-somos p {
+    width: 40%;
+    text-align: left;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    margin-left: 5%;
+    position: relative;
+    color: white;
+    font-weight: 300;
+    line-height: 23px;
+    margin-bottom: 10%;
+}
+
+/* DIVIDER */
+
+.divider-2 {
+    background-color: #E6C573;
+    width: 40%;
+    height: 2px;
+    margin-left: 50%;
+    margin-top: 50px;
+    display: block;
+    justify-content: left;
+    flex-direction: row;
+    position: relative;
+}
+
+/* INFORMACION */
+
+.quienes-somos2 {
+    position: relative;
+    text-align: right;
+    margin-right: 65px;
+}
+
+.quienes-somos2 h1 {
+    margin-bottom: 70px;
+    font-size: 28px;
+    color: white;
+}
+
+.quienes-somos2 p {
+    width: 45%;
+    text-align: left;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    margin-left: 50%;
+    color: white;
+    margin-bottom: 10%;
+}
+
+/* DIVIDER */
+
+.divider-3 {
+    background-color: #E6C573;
+    width: 40%;
+    height: 2px;
+    margin-top: 50px;
+    margin-left: 5%;
+    display: block;
+    justify-content: right;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 10%;
+}
+
+/* SEO */
+
+.section-seo {
+    background-image: url("img/seo.jpg");
+    width: 100%;
+    background-attachment: fixed;
+    height: 570px;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.3;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.seo-text {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.seo-text h1 {
+    font-size: 65px;
+    letter-spacing: 10px;
+    margin-top: -430px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.seo-text p {
+    font-size: 17px;
+    position: absolute;
+    margin-top: -300px;
+    font-weight: 700;
+    color: white;
+}
+
+
+.boton-link {
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Roboto';
+    background-color: transparent;
+    border-color:#E6C573;
+    padding: 10px;
+    position: absolute;
+    box-shadow: 1px 1px 10px rgba(255, 249, 196);
+    margin-top: -200px;
+    text-decoration: none;
+    display: flex;
+}
+
+/* TITULO BOX SERVICIOS*/
+
+.titulo-box h1 {
+    margin-top: 10%;
+    color: white;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 9%;
+}
+
+/* CONTENEDOR BOX SERVICIOS */
+
+.contenedor {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+
+}
+
+.contenedor img {
+    width: 30px;
+}
+
+.box {
+    width: 15%;
+    height: 450px;
+    border: 2px solid #E6C573;
+    margin: 10px;
+    font-size: 13px;
+    text-align: center;
+    padding: 20px;
+    line-height: 22px;
+    margin-bottom: 10%;
+}
+
+.box a {
+    border: 2px solid #E6C573;
+    background-color: #E6C573;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto';
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    width: 60px;
+}
+
+.servicios {
+    display: flex;
+    text-align: center;
+    font-family: 'Roboto';
+    margin-top: 50px;
+    justify-content: space-between;
+    margin-left: 595px;
+    margin-bottom: 10px;
+    color: white;
+    margin-top: 150px;
+}
+
+/* DIVIDER */
+
+.divider-4 {
+    background-color: #E6C573;
+    width: 40%;
+    height: 2px;
+    margin-top: 50px;
+    margin-left: 50%;
+    display: block;
+    justify-content: left;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+/* VALIDACION */
+
+.titulo-validacion {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 140px;
+    color: white;
+}
+
+.validacion {
+    width: 40px;
+    margin-top: 100px;
+}
+
+/* CONTENEDOR PACK CERTIFICADO */
+
+.pack img {
+    width: 30px;
+}
+
+.contenedor-todopacks {
+    background-color: transparent;
+    color: white;
+    display: flex;
+    perspective: 1000px;
+    margin-bottom: 100px;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pack {
+    border: 2px solid #E6C573;
+    margin: 10px;
+    padding: 20px;
+    margin-top: 100px;
+    height: 370px;
+    transform-style: preserve-3d;
+    transition: transform 0.7s;
+    width: 200px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.pack:hover {
+    transform: rotateY(180deg);
+}
+
+.pack-1, .back {
+    width: 1600px;
+    height: 100%;
+    position: absolute;
+    backface-visibility:  hidden;
+}
+
+.pack-2, .back {
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    backface-visibility:  hidden;
+}
+.pack-3, .back {
+    width: 1600px;
+    height: 100%;
+    position: absolute;
+    backface-visibility:  hidden;
+}
+.pack-4, .back {
+    width: 1600px;
+    height: 100%;
+    position: absolute;
+    backface-visibility:  hidden;
+}
+
+.back {
+    transform: rotateY(180deg);
+    background-color: black;
+    color: white;
+    margin: 50px;
+    padding: 50px;
+    margin-top: -22px;
+
+    display: absolute;
+    height: 313px;
+    display: flex;
+    align-items: center;
+    width: 143px;
+    border: 2px solid black;
+}
+
+.back-content h4 {
+    margin: 0;
+}
+
+.back .back-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pack-1 {
+    width: 70px;
+    margin-right: 20px;
+    margin-top: 3%;
+}
+
+.pack-2 {
+    width: 70px;
+
+}
+
+.pack-3 {
+    width: 80px;
+}
+
+.pack-4 {
+    width: 100px;
+}
+.pack h2 {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.cont-footer {
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.cont-footer p {
+    color: white;
+    position: absolute;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: -100px;
+}
+
+.cont-footer img {
+    width: 60%;
+}
+
+/* REDES SOCIALES FOOTER */
+
+.socials-footer {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-top: 20%;
+    width: 100%;
+}
+.socials-footer img {
+    line-height: center;
+    justify-content: center;
+    width: 20px;
+    margin: 10px;
+}
+
+/* BOTON WHATSAPP*/
+
+.float-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 35px;
+}
+
+.float-btn:hover {
+    background-color: #21ac5d;
+    transform: scale(1.1);
+}
+
+.float-btn img {
+    margin-top: 4px;
+    width: 70px;
+    height: 35px;
+}
+
+/* R E S P O N S I V E */
+
+/* TABLET */
+
+@media screen and (max-width: 991px) {
+
+    /* MENU */
+
+    .menu {
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #201F1F;
+        color:#E6C573;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+        line-height: 50px;
+    }
+
+    .menu .navbar ul li a {
+        color: white;
+    }
+
+    .menu .navbar ul li a:hover {
+        color:#E6C573;
+    }
+
+    .menu-icono {
+        display: block;
+        position: relative;
+        justify-content: center;
+        display: flex;
+        width: 40px;
+        margin-top: -6px;
+        margin-left: 20px;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    /* REDES SOCIALES MENU */
+
+    .menu-2 {
+        display: none;
+    }
+
+    .socials {
+        position: relative;
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .social img {
+        width: 20px;
+    }
+
+    /* LOGO PRESENTACION */
+
+    .logo-presentacion img {
+        width: 50%;
+        margin-left: 5%;
+    }
+
+    /* QUIENES SOMOS */
+
+    .quienes-somos p {
+        font-size: 13px;
+    }
+
+    /* TITULO BOX SERVICIOS */
+
+    .titulo-box {
+        font-size: 15px;
+    }
+    
+    /* CONTENEDOR BOX SERVICIOS */
+
+    .box {
+        width: 40%;
+        color: white;
+        height: 375px;
+    }
+
+    .pack {
+        border: 2px solid #E6C573;
+        margin: 10px;
+        padding: 20px;
+        margin-top: 100px;
+        height: 300px;
+        transform-style: preserve-3d;
+        transition: transform 0.7s;
+        width: 250px;
+        color: white;
+        font-size: 13px;
+    }
+
+    .pack-1 {
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    .pack-1 h2 {
+        margin-left: 5%;
+    }
+
+    .pack-1 p {
+        margin-left: 15%;
+        text-align: center;
+    }
+
+    .pack-1 img {
+        margin-left: 25%;
+    }
+
+    .back {
+        height: 243px;
+        width: 195px;
+    }
+
+    /* BOTON WHATSAPP */
+
+    .float-btn {
+        width: 65px;
+        height: 65px;
+    }   
+}
+
+/* MOVIL GRANDE */
+
+@media (max-width: 600px) {
+
+    /* MENU */
+
+    .menu {
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #201F1F;
+        color:#E6C573;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+        line-height: 50px;
+    }
+
+    .menu .navbar ul li a {
+        color: white;
+    }
+
+    .menu .navbar ul li a:hover {
+        color:#E6C573;
+    }
+
+    .menu-icono {
+        width: 30px;
+        display: block;
+        position: relative;
+        margin-top: 7px;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    /* REDES SOCIALES MENU */
+
+    .menu-2 {
+        display: none;
+    }
+
+    .socials {
+        position: absolute;
+        display: flex;
+        margin-left: 63%;
+    }
+
+    .social {
+        width: 35px;
+    }
+
+    .social img {
+        width: 15px;
+    }
+
+    /* LOGO PRESENTACION */
+
+    .logo-presentacion img {
+        margin-top: 25%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1%;
+        width: 87%;
+    }
+
+    .parrafo h4 {
+        font-size: 15px;
+        width: 250px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        margin-left: 17%;
+    }
+    
+    /* DIVIDER */
+
+    .divider-1 {
+        width: 200px;
+        margin-left: 45%;
+    }
+
+    /* QUIENES SOMOS */
+
+    .quienes-somos h1 {
+        font-size: 25px;
+        justify-content: center;
+        text-align: center;
+        margin-right: 16%;
+    }
+
+    .quienes-somos p {
+        width: 300px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-size: 12px;
+        margin-left: 18%;
+        margin-bottom: 20%;
+    }
+
+    /* DIVIDER */
+
+    .divider-2 {
+        margin-left: 45%;
+        width: 200px;
+        border: 0.5px;
+    }
+
+    /* INFORMACION */
+
+    .quienes-somos2 h1 {
+        width: 230px;
+        font-size: 25px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 29%;
+    }
+
+    .quienes-somos2 p {
+        margin-left: 21%;
+        width: 300px;
+        margin-bottom: 20%;
+    }
+
+    /* DIVIDER */
+
+    .divider-3 {
+        width: 200px;
+        margin-bottom: 110px;
+        margin-left: 45%;
+    }
+
+    /* SEO */
+
+    .seo-text p {
+        font-size: 13px;
+        font-weight: 500;
+        width: 70%;
+    }
+
+    .servicios {
+        margin-left: 115px;
+        font-size: 15px;
+        margin-top: 200px;
+    }
+
+    /* TITULO BOX SERVICIOS */
+
+    .titulo-box {
+        margin-top: 20%;
+        margin-bottom: 15%;
+    }
+
+    /* CONTENEDOR BOX SERVICIOS*/
+
+    .contenedor {
+        margin-bottom: 30%;
+    }
+
+    .box {
+        width: 60%;
+        height: 380px;
+        color: white;
+    }
+
+    /* DIVIDER */
+
+    .divider-4 {
+        margin-left: 45%;
+        width: 200px;
+        border: 0.5px;
+    }
+
+    .titulo-validacion {
+        display: flex;
+    }
+
+    .validacion h1 {
+        font-size: 30px;
+    }
+
+    .pack {
+        width: 45%;
+    }
+
+    .back {
+        transform: rotateY(180deg);
+        background-color: black;
+        color: white;
+        margin: 50px;
+        padding: 50px;
+        margin-top: -23px;
+        display: absolute;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 61%;
+        border: 2px solid black;
+    }
+
+    /* FOOTER */
+
+    .cont-footer img {
+        margin-bottom: 40px;
+    }
+      
+    .cont-footer p {
+        font-size: 10px;
+        width: 60%;
+        margin-left: 20%;
+    }
+      
+    .socials-footer img {
+        margin-top: 10px;
+    }
+
+    /* BOTON WHATSAPP*/
+
+    .float-btn {
+        width: 10%;
+        height: 8%;
+    }
+
+    .float-btn img {
+        width: 90%;
+        height: auto;
+        margin-left: 7%;
+    }
+}
+
+
+/* MOVIL PEQUEÑO */
+
+@media (max-width: 400px) {
+
+    /* MENU */
+
+    .menu {
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #201F1F;
+        color:#E6C573;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+        line-height: 85px;
+    }
+
+    .menu .navbar ul li a {
+        color: white;
+    }
+
+    .menu .navbar ul li a:hover {
+        color:#E6C573;
+    }
+
+    .menu-icono {
+        width: 30px;
+        display: block;
+        position: relative;
+        margin-top: 7px;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    /* REDES SOCIALES MENU */
+
+    .menu-2 {
+        display: none;
+    }
+
+    .socials {
+        position: absolute;
+        display: flex;
+        margin-left: 63%;
+        cursor: pointer;
+    }
+
+    .social {
+        width: 35px;
+    }
+
+    .social img {
+        width: 15px;
+    }
+
+    /* LOGO PRESENTACION */
+
+    .logo-presentacion img {
+        margin-top: 25%;
+        justify-content: center;
+        align-items: center;
+        margin-left: -2%;
+        width: 95%;
+    }
+
+    .parrafo h4 {
+        font-size: 15px;
+        width: 250px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        margin-left: 17%;
+    }
+
+    /* DIVIDER */
+
+    .divider-1 {
+        width: 200px;
+        margin-left: 30%;
+    }
+
+    /* QUIENES SOMOS */
+
+    .quienes-somos h1 {
+        font-size: 25px;
+        justify-content: center;
+        text-align: center;
+        margin-right: 18%;
+    }
+    
+    .quienes-somos p {
+        width: 300px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-size: 12px;
+        margin-left: 11%;
+        margin-bottom: 20%;
+    }
+
+    .quienes-somos2 h1 {
+        width: 230px;
+        font-size: 25px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 24%;
+    }
+
+    .quienes-somos2 p {
+        margin-left: 13%;
+        width: 300px;
+        margin-bottom: 20%;
+    }
+
+    /* DIVIDER */
+
+    .divider-2 {
+        margin-left: 35%;
+        width: 200px;
+        border: 0.5px;
+    }
+
+    /* DIVIDER */
+
+    .divider-3 {
+        width: 200px;
+        margin-bottom: 110px;
+        margin-left: 35%;
+    }
+
+    /* SEO*/
+
+    .seo-text h1 {
+        margin-left: 2%;
+    }
+
+    .seo-text p {
+        font-size: 13px;
+        font-weight: 500;
+        width: 70%;
+    }
+
+    /* TITULO BOX SERVICIOS */
+
+    .titulo-box {
+        margin-top: 20%;
+        margin-bottom: 15%;
+    }
+
+    /* CONTENEDOR BOX SERVICIOS */
+
+    .contenedor {
+        margin-bottom: 30%;
+    }
+
+    .box {
+        width: 60%;
+        height: 380px;
+        color: white;
+    }
+
+    /* DIVIDER */
+
+    .divider-4 {
+        margin-left: 35%;
+        width: 200px;
+        border: 0.5px;
+    }
+
+    /* VALIDACION */
+
+    .validacion h1 {
+        font-size: 30px;
+    }
+
+    .titulo-validacion {
+        display: flex;
+    }
+
+    /* CONTENEDOR PACK CERTIFICADO*/
+    .pack {
+        width: 45%;
+    }
+
+    .back {
+        transform: rotateY(180deg);
+        background-color: black;
+        color: white;
+        margin: 50px;
+        padding: 50px;
+        margin-top: -23px;
+        display: absolute;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 61%;
+        border: 2px solid black;
+    }
+
+    /* FOOTER */
+
+    .cont-footer p {
+        font-size: 10px;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+
+    /* BOTON WHATSAPP */
+    
+    .float-btn {
+        width: 10%;
+        height: 7%;
+    }
+
+    .float-btn img {
+        width: 90%;
+        height: auto;
+        margin-left: 7%;
+    }
+}

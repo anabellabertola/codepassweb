@@ -1,0 +1,767 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,700;6..96,800&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', 'Dancing Script';
+    background-image:  url("img/fondo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* MENU */
+
+.menu {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.navbar {
+    position: absolute;
+    display: flex;
+}
+
+.menu-1 {
+    margin-right: 200px;
+    margin-top: 40px;
+}
+
+.logo-1 {
+    width: 95px;
+    margin-top: -25px;
+    margin-left: 1px;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+    list-style-type: none;
+    display: flex;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 30px;
+    color:white;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color:#E6C573;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+    display: none;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    margin-top: 200px;
+    padding-bottom: 50px;
+}
+
+/* MENU REDES SOCIALES */
+
+.socials {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    margin-top: 2.5%;
+    position: relative;
+    margin-left: 67%;
+    cursor: pointer;
+    width: 30%;
+}
+
+.social img{
+    width: 20px;
+    margin: 15px;
+}
+
+/* CONTACTO LOGO */
+
+.contacto-general {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    display: block;
+    color:white;
+}
+
+.imagen-logo img {
+    width: 150px;
+    margin-top: 150px;
+}
+
+/* INFORMACION */
+
+.contacto-general h1 {
+    color: white;
+}
+
+/* CONTACTO REDES SOCIALES */
+
+.contacto-social {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 300px;
+}
+
+.contacto-social img {
+    width: 35px;
+}
+
+.contacto-social h2 {
+    font-size: 15px;
+    margin-top: 20px;
+    color:white;
+    margin-bottom: 50px;
+}
+
+.contacto-social p {
+    color: white;
+}
+
+.contacto-social a:hover {
+    color: grey;
+}
+
+.chat {
+    margin: 15px;
+    margin-bottom: 20%;
+}
+
+.whatsapp h2 {
+    margin-top: 20px;
+    margin-bottom: -32px;
+}
+
+.whatsapp p {
+    margin-top: 80px;
+}
+
+.whatsapp p:hover {
+    color:grey;
+    cursor: pointer;
+}
+
+.chat .whatsapp {
+    width: 200px;
+    line-height: 20px;
+    margin-left: 95px;
+}
+
+.contacto-social a {
+    color: white;
+    font-size: 15px;
+
+}
+
+/* DIVIDER */
+
+.divider-1 {
+    background-color: #E6C573;
+    width: 40%;
+    height: 2px;
+    margin-left: 50%;
+    display: block;
+    justify-content: left;
+    flex-direction: row;
+    position: relative;
+    margin-top: -10%;
+}
+
+/* TITULO FORMULARIO */
+
+.titulo-consulta {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    position: relative;
+    color: white;
+    margin-top: 15%;
+}
+
+.formulario-1 h1 {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.formulario-1 p {
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+/* FORMULARIO */
+
+.formulario {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+form {
+    padding: 50px;
+    width: 700px;
+    text-align: center;
+    outline: none;
+}
+
+/* CAMPOS A COMPLETAR FORMULARIO */
+
+.input-grupo > input {
+    padding: 5px 5px 5px 20px;
+    width: 70%;
+    margin-bottom: 25px;
+    outline: none;
+    color: black;
+}
+
+::placeholder {
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+
+form a {
+    display: block;
+    color:#E6C573;
+    font-size: 15px;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
+.form {
+    margin-top: 100px;
+    margin-left: 600px;
+    display: flex;
+}
+
+.form a {
+    color: white;
+}
+
+/* BOTON ENVIAR */
+
+.input-contenedor .btn-send {
+    padding: 10px;
+    margin-top: 25px;
+    font-family: 'Roboto';
+    background-color: transparent;
+    border-color: #E6C573;
+    color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin-bottom: 300px;
+    font-size: 15px;
+}
+
+/* AVISO EXITOSO DEL INFORMACION COMPLETE EN EL FORMULARIO*/
+
+.success {
+    position: absolute;
+    top: 50px;
+    color: #00A735;
+    font: 18px;
+    margin-left: 585px;
+    margin-top: 130px;
+}
+
+/* ALERTA POR INFORMACION INCORRECTA O ERROR AL CARGAR AL ENVIAR EL FORMUALRIO */
+
+.error { 
+    position: absolute;
+    top: 50px;
+    color: #E02D00;
+    font-size: 18px;
+    margin-left: 560px;
+    margin-top: 130px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.cont-footer {
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.cont-footer p {
+    color: white;
+    position: absolute;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: -100px;
+}
+
+.cont-footer img {
+    width: 60%;
+}
+
+/* REDES SOCIALES FOOTER */
+
+.socials-footer {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-top: 20%;
+    width: 100%;
+}
+
+.socials-footer img {
+    line-height: center;
+    justify-content: center;
+    width: 20px;
+    margin: 10px;
+}
+
+/* BOTON WHATSAPP */
+
+.float-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 35px;
+}
+
+.float-btn:hover {
+    background-color: #21ac5d;
+    transform: scale(1.1);
+}
+
+.float-btn img {
+    margin-top: 4px;
+    width: 70px;
+    height: 35px;
+}
+
+
+/* R E S P O N S I V E */
+
+/* TABLET */
+
+@media (max-width: 991px) {
+
+    /* MENU */
+    .menu {
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #201F1F;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+        line-height: 30px;
+
+    }
+
+    .menu .navbar ul li a {
+        color: white;
+    }
+
+    .menu .navbar ul li a:hover {
+        color: #E6C573;
+    }
+
+    .menu-icono {
+        display: block;
+        position: absolute;
+        width: 40px;
+        margin-left: 5%;
+        margin-top: -20px;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    /* MENU REDES SOCIALES */
+
+    .socials {
+        position: absolute;
+        display: flex;
+        margin-left: 65%;
+        margin-top: 5px;
+    }
+
+    .social {
+        width: 35px;
+    }
+
+    .social img {
+        width: 15px;
+    }
+
+    /* CONTACTO LOGO */
+
+    .contacto-general {
+        display: block;
+        margin-left: -355px;
+    }
+
+    .imagen-logo img {
+        width: 130px;
+        display: inline-block;
+        margin-left: 350px;
+    }
+
+    /* INFORMACION */
+
+    .contacto-general h1 {
+        font-size: 30px;
+        margin-left: 350px;
+        margin-bottom: 30px;
+    }
+
+    .contacto-general p {
+        font-size: 15px;
+        margin-left: 52%;
+        width: 300px;
+
+    }
+
+    /* CONTACTO REDES SOCIALES */
+
+    .contacto-social {
+        margin-left: 30%;
+        margin-bottom: 10%
+    }
+
+    .chat .whatsapp {
+        margin-right: 20%;
+    }
+
+    .contacto-social a:hover {
+        color: grey;
+    }
+
+    .contacto-social img {
+        width: 25px;
+    }
+
+    /* TITULO FORMULARIO */
+
+    .formulario-1 h1 {
+        font-size: 30px;
+    }
+
+    .formulario-1 p {
+        font-size: 13px;
+    }
+
+    /* CAMPOS A COMPLETAR FORMULARIO */
+
+    ::placeholder {
+        font-size: 13px;
+    }
+
+    /* BOTON ENVIAR */
+
+    .input-contenedor .btn-send {
+        font-size: 13px;
+    }
+
+    /* BOTON WHATSAPP */
+
+    .float-btn {
+        width: 65px;
+        height: 65px;
+    }
+
+    /* AVISO EXITOSO DEL INFORMACION COMPLETE EN EL FORMULARIO*/
+      
+    .success {
+        color: green;
+        margin-left: 35%;
+        margin-top: 55px;
+    }
+
+    /* ALERTA POR INFORMACION INCORRECTA O ERROR AL CARGAR AL ENVIAR EL FORMUALRIO */
+
+    .error {
+        color: red;
+        margin-left: 33%;
+        margin-top: 55px;
+    }
+}
+
+
+/* MOVIL GRANDE */
+
+@media (max-width: 600px) {
+
+    /* MENU */
+
+    .menu-icono {
+        width: 30px;
+        display: block;
+        position: relative;
+        margin-top: 7px;
+        margin-left: 65%;
+    }
+
+    .imagen-logo p {
+        margin-left: 53%;
+    }
+
+    /* MENU REDES SOCIALES */
+
+    .socials {
+        position: absolute;
+        display: flex;
+        margin-left: 63%;
+        margin-top: 6%;
+
+    }
+
+    .social {
+        width: 35px;
+    }
+
+    .social img {
+        width: 15px;
+    }
+
+    /* CONTACTO REDES SOCIALES */
+
+    .chat a {
+        font-size: 13px;
+    }
+
+    /* CONTACTO REDES SOCIALES */
+
+    .contacto-social {
+        margin-left: 43%;
+        margin-bottom: 10%;
+    }
+
+    /* DIVIDER */
+
+    .divider-1 {
+        margin-bottom: 25%;
+    }
+
+    /* TITULO FORMULARIO */
+
+    .formulario-1 h1 {
+        font-size: 27px;
+    }
+
+    .formulario-1 p {
+        font-size: 13px;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    /* CAMPOS A COMPLETAR FORMULARIO */
+
+    ::placeholder {
+        font-size: 11px;
+    }
+
+    /* FOOTER */
+
+    .cont-footer img {
+        margin-bottom: 40px;
+    }
+
+    .cont-footer p {
+        font-size: 10px;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    /* REDES SOCIALES FOOTER */
+      
+    .socials-footer img {
+        margin-top: 10px;
+    }
+
+    /* BOTON WHATSAPP */
+
+    .float-btn {
+        width: 10%;
+        height: 8%;
+    }
+
+    .float-btn img {
+        width: 90%;
+        height: auto;
+        margin-left: 7%;
+    }
+
+    .success {
+        margin-left: 21%;
+    }
+    .error {
+        margin-left: 17%;
+    }
+}
+
+
+/* MOVIL PEQUEÑO */
+
+@media (max-width: 400px) {
+
+    /* MENU */
+
+    .menu-icono {
+        margin-top: 7px;
+        width: 30px;
+    }
+
+    /* MENU REDE SOCIALES */
+
+    .socials {
+        margin-top: -37px;
+        margin-left: 63%;
+    }
+
+    /* CONTACTO LOGO */
+    
+    .imagen-logo img {
+        width: 15%;
+    }
+
+    .contacto-general {
+        margin-top: 20%;
+    }
+
+    /* INFORMACION */
+
+    .contacto-general h1 {
+        font-size: 25px;
+    }
+
+    .contacto-general p {
+        font-size: 15px;
+        margin-left: 53.5%;
+    }
+
+    /* CONTACTO REDES SOCIALES */
+
+    .contacto-social {
+        margin-left: 48%;
+    }
+
+    /* TITULO FORMULARIO */
+
+    .formulario-1 h1 {
+        margin-top: 25%;
+        font-size: 25px;
+    }
+
+    .formulario-1 p {
+        width: 70%;
+        font-size: 13px;
+        margin-left: 15%
+    }
+
+    /* FOOTER */
+
+    .cont-footer p {
+        font-size: 10px;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    /* BOTON WHATSAPP */
+
+    .float-btn {
+        width: 10%;
+        height: 7%;
+    }
+
+    .float-btn img {
+        width: 90%;
+        height: auto;
+        margin-left: 7%;
+    }
+
+    .success {
+        font-size: 13px;
+        margin-left: 25%;
+        margin-top:  20%;
+    }
+
+    .error {
+        font-size: 13px;
+        margin-left: 20%;
+        margin-top: 20%;
+    }
+}
+
